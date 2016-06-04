@@ -1,0 +1,19 @@
+/**********************
+** v0.3: 04/06/16
+**********************/
+	- Migration to Qt5
+	- Migration to CMake/MingW
+	- Database format change
+
+
+/**********************
+** v0.2: 07/10/09
+**********************/
+	- Search function updated: Can now find every entry of the word searched.
+	- Fixed database coma problem: Replaced "'" by "''" in every sql request.
+
+
+/**********************
+** v0.1: 15/05/09
+**********************/
+	- First release.
