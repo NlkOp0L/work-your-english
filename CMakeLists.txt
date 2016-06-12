@@ -4,7 +4,11 @@ project(WorkYourEnglish)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
-set(CMAKE_PREFIX_PATH "C:\\Libs\\Qt\\5.7\\mingw53_32")
+if(WIN32)
+    set(CMAKE_PREFIX_PATH "C:\\Libs\\Qt\\5.7\\mingw53_32")
+elseif(UNIX)
+    set(CMAKE_PREFIX_PATH "/opt/Qt/5.5/gcc")
+endif()
 set(CMAKE_BUILD_TYPE Release)
 
 # Executable

@@ -1,7 +1,7 @@
 #ifndef HELPWINDOW_H
 #define HELPWINDOW_H
 
-#include "MainWindow.h"
+#include "mainwindow.h"
 #include <QTextBrowser>
 
 

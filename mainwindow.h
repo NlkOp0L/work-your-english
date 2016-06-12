@@ -16,10 +16,10 @@
 #include <QIcon>
 #include <QRadioButton>
 #include <QButtonGroup>
-#include "DataBase.h"
-#include "DbEditor.h"
-#include "DbViewer.h"
-#include "HelpWindow.h"
+#include "database.h"
+#include "dbeditor.h"
+#include "dbviewer.h"
+#include "helpwindow.h"
 
 #include <QDebug>
 

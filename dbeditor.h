@@ -1,7 +1,7 @@
 #ifndef DBEDITOR_H
 #define DBEDITOR_H
 
-#include "MainWindow.h"
+#include "mainwindow.h"
 
 class MainWindow;
 

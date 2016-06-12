@@ -1,7 +1,7 @@
 #ifndef DBVIEWER_H
 #define DBVIEWER_H
 
-#include "MainWindow.h"
+#include "mainwindow.h"
 #include <QTableWidget>
 #include <vector>
 #include <QHeaderView>
